@@ -114,6 +114,6 @@ Electrical & Computer Engineering student at UC Davis, working across hardware a
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1e3a8a&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1e3a8a&height=200&section=footer&text=Let's%20build%20something&fontColor=ffffff&fontSize=44&fontAlignY=68&desc=Open%20to%20internships%20%26%20collaborations&descAlignY=88&descSize=16&descColor=dbeafe" width="100%"/>
 
 </div>
