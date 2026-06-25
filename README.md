@@ -1,8 +1,6 @@
 <div align="center">
 
-# Sukhman Cheema
-
-### Electrical &amp; Computer Engineer · Full-Stack Dev · Founder
+<img src="./assets/banner.svg" width="100%" alt="Sukhman Cheema — Electrical & Computer Engineer | Full-Stack Dev | Founder"/>
 
 </div>
 
@@ -16,15 +14,31 @@
 
 <br/>
 
+<div align="center">
+<table>
+<tr>
+<td>
+
+### About
+
+Electrical &amp; Computer Engineering student at UC Davis, working across hardware and software. I build full-stack platforms, ship embedded systems, and co-founded Aria, a consumer AI wearable startup. Comfortable from the silicon up to the React frontend.
+
+</td>
+</tr>
+</table>
+</div>
+
+<br/>
+
 ## Currently Building
 
 <div align="center">
 
 | Project | What it is |
 |---------|-----------|
-| **Aria** | Consumer AI wearable startup. Co-founder and software engineer. Built the marketing site in Next.js + React and the full brand system|
-| **Aside AI(Winner: Berkeley AI Hackathon)** | Real-time AI wearable that perceives a room and narrates it aloud in ~1 to 2s. 1st place, Deepgram Track. QNX Raspberry Pi node, Python orchestration, React Native app over LAN. |
-| **dAdvisor(Winner: Prod Con UC Davis)** | AI counseling platform giving 30k+ students a unified interface for major-switching resources. Hackathon winner for Systems Integration &amp; AI. |
+| **Aria** | Consumer AI wearable startup. Co-founder and software engineer. Built the marketing site in Next.js 15 + React 19 and the full brand system. Debuted at the Berkeley AI Hackathon. |
+| **Aside AI** | Real-time AI wearable that perceives a room and narrates it aloud in ~1 to 2s. 1st place, Deepgram Track. QNX Raspberry Pi node, Python orchestration, React Native app over LAN. |
+| **dAdvisor** | AI counseling platform giving 30k+ students a unified interface for major-switching resources. Hackathon winner for Systems Integration &amp; AI. |
 | **SafeHaven** | Privacy-first crisis support platform for DV survivors, disguised as a calculator / news / weather app so it stays invisible on a monitored phone. Encrypted evidence journaling, one-tap SOS with location, and trauma-informed AI support. Built at HackDavis 2026 in Next.js, Socket.io, and MongoDB. |
 
 </div>
@@ -101,6 +115,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:3b82f6,100:1e3a8a&amp;height=120&amp;section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt=""/>
 
 </div>
