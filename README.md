@@ -21,7 +21,7 @@
 
 ### About
 
-Electrical &amp; Computer Engineering student at UC Davis, working across hardware and software. I build full-stack platforms, ship embedded systems, and co-founded Aria, a consumer AI wearable startup. Comfortable from the silicon up to the React frontend.
+Electrical &amp; Computer Engineering student at UC Davis, working across hardware and software. I build full-stack platforms, ship embedded systems, and co-founded Aria, a consumer AI wearable startup. Comfortable from the hardware up to the software.
 
 </td>
 </tr>
