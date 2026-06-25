@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1e3a8a,100:3b82f6&amp;height=200&amp;section=header&amp;text=Sukhman%20Cheema&amp;fontColor=ffffff&amp;fontSize=58&amp;fontAlignY=38&amp;desc=Electrical%20%26%20Computer%20Engineer%20%7C%20Full-Stack%20Dev%20%7C%20Founder&amp;descAlignY=58&amp;descSize=16&amp;descColor=dbeafe" width="100%"/>
+# Sukhman Cheema
+
+### Electrical &amp; Computer Engineer · Full-Stack Dev · Founder
 
 </div>
 
@@ -10,22 +12,6 @@
 ![UC Davis](https://img.shields.io/badge/UC_Davis-1d4ed8?style=for-the-badge&amp;logoColor=white&amp;labelColor=2563eb)
 ![Full Stack](https://img.shields.io/badge/Full_Stack-1e40af?style=for-the-badge&amp;logoColor=white&amp;labelColor=2563eb)
 
-</div>
-
-<br/>
-
-<div align="center">
-<table>
-<tr>
-<td>
-
-### About
-
-Electrical &amp; Computer Engineering student at UC Davis, working across hardware and software. I build full-stack platforms, ship embedded systems, and co-founded Aria, a consumer AI wearable startup. Comfortable from the silicon up to the React frontend.
-
-</td>
-</tr>
-</table>
 </div>
 
 <br/>
