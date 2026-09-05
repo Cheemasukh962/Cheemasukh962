@@ -40,7 +40,7 @@ Electrical & Computer Engineering student at UC Davis, working across hardware a
 | **dAdvisor** *(Davis Prod Con Winner)* | AI counseling platform giving 30k+ students a unified interface for major-switching resources. Hackathon winner for Systems Integration & AI. |
 | **Recco** (YC Growth Hackathon)| Camera-first AI networking assistant. Point your phone at a room to see who people are and why they're worth talking to, filter the crowd by voice, and draft a warm opener in one tap. |
 | **Zeno** *(Tier Zero)* | Voice + vision IT support agent that talks you through a fix, reads your actual screen, and circles where to click, then saves a personalized guide so the knowledge base writes itself. Deepgram voice, GMI LLM + Qwen3-VL vision, Pillow annotation, Redis memory, FastAPI/WebSocket, Dockerized on AgentBox. |
-| **SafeHaven** | Privacy-first crisis support platform for DV survivors, disguised as a calculator / news / weather app so it stays invisible on a monitored phone. Encrypted evidence journaling, one-tap SOS with location, and trauma-informed AI support. |
+| **SafeHaven** (HackDavis) | Privacy-first crisis support platform for DV survivors, disguised as a calculator / news / weather app so it stays invisible on a monitored phone. Encrypted evidence journaling, one-tap SOS with location, and trauma-informed AI support. |
 | **CodePath** | Completing coursework and projects focused on AI and Systems Implementation. So far, I have built production RAG systems, developed multi-tool AI agents, and fine-tuned machine learning models.|
 Week1(RAG systems):https://github.com/Cheemasukh962/CodePath-Project-1
 Week2(multi-tool AI agents):https://github.com/Cheemasukh962/CodePathProject2
