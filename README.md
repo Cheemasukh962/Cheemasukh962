@@ -44,12 +44,12 @@ Pick a lane. The same person built all three.
 <td width="33%" valign="top">
 
 **SWE**
-Agents, backends, iOS, tests.
+Backends, tests, solo-built systems.
 
-- [Recco](https://github.com/Cheemasukh962/Recco) — SwiftUI + Convex + face embeddings
-- [ShortVoice](https://github.com/psagar29/ShortVoice) — live voice dashboard (14 commits)
-- [Compass](https://github.com/Cheemasukh962/Compass) — event-bus coding agent
+- [LARP EXPO](https://github.com/Cheemasukh962/LarpSchool) — Python pipeline + Next.js floor game
 - [Reorder Copilot](https://github.com/Cheemasukh962/dryftAI-demo) — CP-SAT + typed LLM boundary
+- [Protein Finder](https://github.com/Cheemasukh962/Protiene) — FastAPI + Postgres, deployed
+- [ShortVoice](https://github.com/psagar29/ShortVoice) — live voice dashboard (14 commits)
 
 </td>
 <td width="33%" valign="top">
@@ -102,11 +102,11 @@ Wearable that watches a room and narrates it aloud in a swappable personality (~
 ### [Recco](https://github.com/Cheemasukh962/Recco)
 **YC AI Growth Hackathon**
 
-Camera-first iPhone networking assistant. Point at a room, filter by voice ("show me AI founders"), lock a person, draft a warm opener. On the team copy I landed the FastAPI InsightFace `/embed` service and the iOS HTTP bridge.
+Team product: camera-first iPhone networking assistant. Point at a room, filter by voice, lock a person, draft an opener. I am a minority committer; on the team repo I landed InsightFace `/embed` and the iOS HTTP bridge (3 commits). Pranav owns most of the Convex/Swift surface.
 
 `SwiftUI` `Convex` `FastAPI` `Deepgram` `ArcFace`
 
-[Code](https://github.com/Cheemasukh962/Recco) · [Team repo](https://github.com/psagar29/Recco) · [Demo](https://www.youtube.com/watch?v=513qRmC00Q0)
+[Team repo](https://github.com/psagar29/Recco) · [Mirror](https://github.com/Cheemasukh962/Recco) · [Demo](https://www.youtube.com/watch?v=513qRmC00Q0)
 
 </td>
 </tr>
@@ -125,14 +125,14 @@ Phone arcade for 795 confirmed guests. Ingested the Luma list, enriched LinkedIn
 </td>
 <td width="50%" valign="top">
 
-### [Compass](https://loop-hack2026.vercel.app)
-**LoopHack 2026**
+### [Protein Finder](https://protiene.vercel.app)
+**Campus product · FastAPI + React**
 
-File one issue. An event-driven keeper recalls prior art, blames the file boundary, plans, implements, waits for human review, then files its own next issues. Contract-first React frontend; bus + planner on the backend.
+UC Davis dining ranked by protein and distance, with routes, favorites, and a meal tracker. I built almost all of it (29 commits): JWT cookies, Postgres on Railway, React on Vercel.
 
-`TypeScript` `React` `Vite` `event bus`
+`Python` `FastAPI` `PostgreSQL` `React`
 
-[Code](https://github.com/Cheemasukh962/Compass) · [Live](https://loop-hack2026.vercel.app)
+[Code](https://github.com/Cheemasukh962/Protiene) · [Live](https://protiene.vercel.app)
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Voice agent that finds corporate private dining rooms (30–200 people), ranks t
 ### [Reorder Copilot](https://github.com/Cheemasukh962/dryftAI-demo)
 **Manufacturing purchasing agent**
 
-Buyer types a disruption in English. CP-SAT re-solves the order plan, prices the delay, and names the binding constraint. The LLM never picks a quantity — Pydantic rejects hallucinated SKUs at the boundary. Backtest: cheaper *and* higher fill than an ERP `(s,Q)` rule when cash is scarce.
+Buyer types a disruption in English. CP-SAT re-solves the order plan, prices the delay, and names the binding constraint. The LLM never picks a quantity — Pydantic rejects hallucinated SKUs at the boundary. Synthetic factory data; cash-constrained backtest beats an ERP `(s,Q)` rule on cost and fill. 42 tests.
 
 `Python` `CP-SAT` `Pydantic AI`
 
@@ -171,12 +171,12 @@ Buyer types a disruption in English. CP-SAT re-solves the order plan, prices the
 | Project | What it is | For |
 |---|---|---|
 | **[ShortVoice](https://github.com/psagar29/ShortVoice)** · VoiceOS hackathon | Translation layer for compressed speech → full intent. I built the live dashboard (Deepgram listener, HEARD → MEANT feed). 14 commits, 2nd on the repo. | SWE · Product |
-| **[dAdvisor](https://github.com/Pocket-sys32/dAdvisor)** · ProdCon 3rd | Major-switch planner: current → target major, remaining courses, quarter plan, time-to-graduate. | Product |
-| **[Zeno](https://github.com/Cheemasukh962/Zeno)** · GMI Agents Hackathon | Voice + vision IT agent. Talks you through a fix, reads your screen, circles where to click, then saves a walkthrough so the knowledge base writes itself. | SWE |
-| **[SafeHaven](https://github.com/Marqlo-C/SafeHaven)** · HackDavis | Privacy-first crisis support, disguised as calculator / news / weather. 7 merged PRs: cover apps + private-mode UI shell (~1.5k lines on the sanctuary PR). | Product · SWE |
-| **[Protein Finder](https://protiene.vercel.app)** | Campus dining ranked by protein + distance. FastAPI + PostgreSQL on Railway, React on Vercel. | Product |
-| **[Aggie Recs](https://v0-aggie-recs.vercel.app)** · Sac Hacks | Pantry → recipes so students who pick up food know what to cook. React + Flask. | Product |
-| **[VitaPal](https://design-project-two.vercel.app)** | Nutrition journal + habit builder. React Native / Expo, persistent on-device state, NIH-linked nutrient notes. | Product · Design |
+| **[dAdvisor](https://github.com/Pocket-sys32/dAdvisor)** · ProdCon 3rd | Major-switch planner. Product lead / pitch; git is mostly README. Client-only seed data, no backend in the repo. | Product |
+| **[Zeno](https://github.com/Cheemasukh962/Zeno)** · GMI Agents Hackathon | Voice + vision IT agent. I built Phase 2 orchestration (escalation, guided-step guards, tests). Teammate owns perception + frontend. | SWE |
+| **[Compass](https://github.com/Cheemasukh962/Compass)** · LoopHack 2026 | Event-driven coding agent (recall → plan → implement → self-file next issues). I own README/architecture; app commits are teammates + Builder.io. | Product |
+| **[SafeHaven](https://github.com/Marqlo-C/SafeHaven)** · HackDavis | Privacy-first crisis support, disguised as calculator / news / weather. 7 merged PRs: cover apps + private-mode UI shell. | Product · SWE |
+| **[Aggie Recs](https://v0-aggie-recs.vercel.app)** · Sac Hacks | Pantry → recipes so students who pick up food know what to cook. Vite + React (Figma/v0 export), not a Flask backend. | Product |
+| **[VitaPal](https://github.com/Cheemasukh962/Design-Project)** | Nutrition journal + habit builder. React Native / Expo, 42 unit tests, NIH-linked notes. Design-class; listed Vercel URL is down. | Product · Design |
 
 ---
 
@@ -190,7 +190,8 @@ I show up as a contributor on the team copy. That's me.
 | [psagar29/ShortVoice](https://github.com/psagar29/ShortVoice) | Live dashboard / Deepgram UI · 14 commits (2nd) |
 | [psagar29/Recco](https://github.com/psagar29/Recco) | InsightFace `/embed` + iOS HTTP bridge · 3 commits |
 | [Marqlo-C/SafeHaven](https://github.com/Marqlo-C/SafeHaven) | Cover UIs (calc, news, weather) + private shell · 7 merged PRs |
-| [Pocket-sys32/dAdvisor](https://github.com/Pocket-sys32/dAdvisor) | ProdCon major planner · small git footprint, real product work on the team |
+| [Pocket-sys32/dAdvisor](https://github.com/Pocket-sys32/dAdvisor) | ProdCon pitch + mockups · README commits, not the app core |
+| [Cheemasukh962/Zeno](https://github.com/Cheemasukh962/Zeno) | Phase 2 orchestration · 4 commits; AadiPathak23 owns perception/UI |
 
 ---
 
