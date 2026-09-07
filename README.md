@@ -21,9 +21,9 @@
 
 ### About
 
-Electrical & Computer Engineering student at UC Davis. I build the full path from **idea → product → shipped system**: Next.js and iOS apps, FastAPI agents, and Raspberry Pi / QNX firmware.
+Electrical & Computer Engineering student at UC Davis. I ship **idea → product → live system**: Next.js and iOS apps, FastAPI / Convex agents, and consumer wearables with a hardware team.
 
-Co-founder and software engineer at [**Aria AI**](https://aside-website.vercel.app/) — a consumer wearable that narrates the room in ~1–2s. Frontend at [#include Davis](https://github.com/Cheemasukh962). IT student specialist for UC Davis (Windows / macOS / Linux, hardware repair, PHP CMS).
+Co-founder at [**Aria AI**](https://aside-website.vercel.app/) — a wearable that narrates the room in ~1–2s. I own product, GTM, and the brand site; teammates own most of the firmware in git. Frontend at [#include Davis](https://github.com/Cheemasukh962). IT student specialist for UC Davis (Windows / macOS / Linux, hardware repair, PHP CMS).
 
 I want roles that sit at the intersection of **software, product, and hardware** — SWE that still touches users and devices, product that still ships code, robotics / embedded that still has a software stack. If you want to hack together, I'm down.
 
@@ -47,9 +47,9 @@ Pick a lane. The same person built all three.
 Agents, backends, iOS, tests.
 
 - [Recco](https://github.com/Cheemasukh962/Recco) — SwiftUI + Convex + face embeddings
+- [ShortVoice](https://github.com/psagar29/ShortVoice) — live voice dashboard (14 commits)
 - [Compass](https://github.com/Cheemasukh962/Compass) — event-bus coding agent
 - [Reorder Copilot](https://github.com/Cheemasukh962/dryftAI-demo) — CP-SAT + typed LLM boundary
-- [Zeno](https://github.com/Cheemasukh962/Zeno) — voice + vision IT agent
 
 </td>
 <td width="33%" valign="top">
@@ -68,10 +68,10 @@ Shipped for real rooms, not just demos.
 **Hardware**
 Sensors → firmware → product.
 
-- [Aside / Aria](https://github.com/Da0t/AsideAI) — Pi + QNX + camera/mic wearable
-- [Arduino temp sensor](https://github.com/Cheemasukh962/DOC-Arduino-IDE-) — shipped sensor firmware
-- Semi-autonomous rovers — C++ + sensors, 10+ builds, STEM Day for 200+ students
-- PCB design coursework + campus IT hardware repair
+- [Aside / Aria](https://github.com/Da0t/AsideAI) — team wearable (Pi + QNX + camera/mic)
+- [Arduino temp/fan](https://github.com/Cheemasukh962/DOC-Arduino-IDE-) — DHT11 sensor firmware
+- Semi-autonomous rovers — C++ + sensors, STEM Day for 200+ students
+- PCB coursework + campus IT hardware repair + C++/SFML labs
 
 </td>
 </tr>
@@ -90,9 +90,9 @@ The work I'd open first in an interview.
 ### [Aria / Aside AI](https://aside-website.vercel.app/)
 **Co-founder · Berkeley AI Hackathon · Deepgram 1st**
 
-Wearable that watches a room and narrates it aloud in a swappable personality (~1–2s). I owned the hardware ↔ software pipeline: vision, Python orchestration, Pi/QNX node, and the [Next.js brand site](https://aside-website.vercel.app/).
+Wearable that watches a room and narrates it aloud in a swappable personality (~1–2s). I started the project at Berkeley, then owned product, GTM, and the [Next.js brand site](https://aside-website.vercel.app/) (20k+ views in a day). Firmware and orchestrator commits are teammates; I helped debug the HW/SW path on the floor.
 
-`QNX` `Raspberry Pi` `C++` `Python` `React Native` `Deepgram`
+`QNX` `Raspberry Pi` `Python` `React Native` `Deepgram` `Next.js`
 
 [Code](https://github.com/Da0t/AsideAI) · [Site](https://aside-website.vercel.app/)
 
@@ -102,11 +102,11 @@ Wearable that watches a room and narrates it aloud in a swappable personality (~
 ### [Recco](https://github.com/Cheemasukh962/Recco)
 **YC AI Growth Hackathon**
 
-Camera-first iPhone networking assistant. Point at a room, filter by voice ("show me AI founders"), lock a person, draft a warm opener. SwiftUI AR layer, Convex backend, InsightFace embeddings, Fiber identity.
+Camera-first iPhone networking assistant. Point at a room, filter by voice ("show me AI founders"), lock a person, draft a warm opener. On the team copy I landed the FastAPI InsightFace `/embed` service and the iOS HTTP bridge.
 
 `SwiftUI` `Convex` `FastAPI` `Deepgram` `ArcFace`
 
-[Code](https://github.com/Cheemasukh962/Recco) · [Demo](https://www.youtube.com/watch?v=513qRmC00Q0)
+[Code](https://github.com/Cheemasukh962/Recco) · [Team repo](https://github.com/psagar29/Recco) · [Demo](https://www.youtube.com/watch?v=513qRmC00Q0)
 
 </td>
 </tr>
@@ -170,13 +170,13 @@ Buyer types a disruption in English. CP-SAT re-solves the order plan, prices the
 
 | Project | What it is | For |
 |---|---|---|
-| **[dAdvisor](https://github.com/Pocket-sys32/dAdvisor)** · ProdCon 3rd | Major-switch planner: current → target major, remaining courses, quarter plan, time-to-graduate. I was the top committer. | Product · SWE |
+| **[ShortVoice](https://github.com/psagar29/ShortVoice)** · VoiceOS hackathon | Translation layer for compressed speech → full intent. I built the live dashboard (Deepgram listener, HEARD → MEANT feed). 14 commits, 2nd on the repo. | SWE · Product |
+| **[dAdvisor](https://github.com/Pocket-sys32/dAdvisor)** · ProdCon 3rd | Major-switch planner: current → target major, remaining courses, quarter plan, time-to-graduate. | Product |
 | **[Zeno](https://github.com/Cheemasukh962/Zeno)** · GMI Agents Hackathon | Voice + vision IT agent. Talks you through a fix, reads your screen, circles where to click, then saves a walkthrough so the knowledge base writes itself. | SWE |
-| **[SafeHaven](https://github.com/Marqlo-C/SafeHaven)** · HackDavis | Privacy-first crisis support, disguised as calculator / news / weather. I shipped 8 PRs: cover apps + private-mode UI shell. | Product · SWE |
+| **[SafeHaven](https://github.com/Marqlo-C/SafeHaven)** · HackDavis | Privacy-first crisis support, disguised as calculator / news / weather. 7 merged PRs: cover apps + private-mode UI shell (~1.5k lines on the sanctuary PR). | Product · SWE |
 | **[Protein Finder](https://protiene.vercel.app)** | Campus dining ranked by protein + distance. FastAPI + PostgreSQL on Railway, React on Vercel. | Product |
 | **[Aggie Recs](https://v0-aggie-recs.vercel.app)** · Sac Hacks | Pantry → recipes so students who pick up food know what to cook. React + Flask. | Product |
 | **[VitaPal](https://design-project-two.vercel.app)** | Nutrition journal + habit builder. React Native / Expo, persistent on-device state, NIH-linked nutrient notes. | Product · Design |
-| **[Yoga Pose Corrector](https://github.com/Cheemasukh962/yoga_pose_corrector)** | Computer vision pose classification with live form feedback. | Hardware-adjacent · CV |
 
 ---
 
@@ -186,18 +186,20 @@ I show up as a contributor on the team copy. That's me.
 
 | Repo | My slice |
 |---|---|
-| [Da0t/AsideAI](https://github.com/Da0t/AsideAI) | Hardware–software pipeline, vision, Pi/QNX node · 2nd most commits |
-| [Pocket-sys32/dAdvisor](https://github.com/Pocket-sys32/dAdvisor) | Major planner product · most commits |
-| [Marqlo-C/SafeHaven](https://github.com/Marqlo-C/SafeHaven) | Cover UIs (calc, news, weather) + private shell · 8 merged PRs |
-| [Cheemasukh962/Recco](https://github.com/Cheemasukh962/Recco) | iOS + identity stack for the YC floor |
+| [Da0t/AsideAI](https://github.com/Da0t/AsideAI) | Product, GTM, README + brand assets · 6 commits (2nd). Firmware is teammates. |
+| [psagar29/ShortVoice](https://github.com/psagar29/ShortVoice) | Live dashboard / Deepgram UI · 14 commits (2nd) |
+| [psagar29/Recco](https://github.com/psagar29/Recco) | InsightFace `/embed` + iOS HTTP bridge · 3 commits |
+| [Marqlo-C/SafeHaven](https://github.com/Marqlo-C/SafeHaven) | Cover UIs (calc, news, weather) + private shell · 7 merged PRs |
+| [Pocket-sys32/dAdvisor](https://github.com/Pocket-sys32/dAdvisor) | ProdCon major planner · small git footprint, real product work on the team |
 
 ---
 
 ## Hardware & embedded
 
-- **Aside wearable** — chest-clipped camera + mic, QNX Raspberry Pi firmware, on-device TFLite triggers, LAN to a Python brain, React Native playback.
-- **Arduino temperature sensor** — firmware that actually ran the sensor ([code](https://github.com/Cheemasukh962/DOC-Arduino-IDE-)).
+- **Aside wearable (team)** — chest-clipped camera + mic, QNX Raspberry Pi, Python brain, React Native playback. I was on the floor debugging the path; git on this repo is mostly docs and the brand site.
+- **Arduino** — DHT11 temp/humidity driving a fan ([Sensor.cpp](https://github.com/Cheemasukh962/DOC-Arduino-IDE-)).
 - **Semi-autonomous rovers** — 10+ C++ / sensor builds with the engineering club; STEM Day outreach for 200+ first-generation high school students.
+- **C++ labs** — SFML particle system and multithreaded Mandelbrot ([Particles](https://github.com/Cheemasukh962/Particles), [Mandelbrot-Set](https://github.com/Cheemasukh962/Mandelbrot-Set)).
 - **Campus IT** — component-level workstation repair, AV / smart displays, Windows + macOS + Linux.
 - **PCB** — Altium coursework in progress. Target: roles that still let me touch silicon, sensors, and robots.
 
@@ -213,6 +215,7 @@ Production-shaped coursework, not tutorial dumps.
 | 2 | Multi-tool AI agents | [CodePathProject2](https://github.com/Cheemasukh962/CodePathProject2) |
 | 3 | Fine-tuned ML models | [Week3-Codepath-Project](https://github.com/Cheemasukh962/Week3-Codepath-Project) |
 | 4 | **Provenance Guard** — ensemble AI-text detector with calibrated confidence, appeals, and an audit log | [Week4-CodePath-Project](https://github.com/Cheemasukh962/Week4-CodePath-Project) |
+| Simulated OSS | Offline pytest suite for a GitHub tool (`pytest-httpserver`, 16 tests). Open PR, not merged — how I work in a real Python repo, not a maintainer claim. | [pathreview#971](https://github.com/ascherj/pathreview/pull/971) |
 
 ---
 
