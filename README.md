@@ -21,7 +21,7 @@
 
 ### About
 
-Electrical & Computer Engineering student at UC Davis. I ship **idea → product → live system**: Next.js and iOS apps, FastAPI / Convex agents, and consumer wearables with a hardware team.
+Electrical & Computer Engineering student at UC Davis. I ship **idea → product → live system**: Next.js and FastAPI apps, Convex / voice agents, and consumer wearables with a hardware team.
 
 Co-founder at [**Aria AI**](https://aside-website.vercel.app/) — a wearable that narrates the room in ~1–2s. I own product, GTM, and the brand site; teammates own most of the firmware in git. Frontend at [#include Davis](https://github.com/Cheemasukh962). IT student specialist for UC Davis (Windows / macOS / Linux, hardware repair, PHP CMS).
 
